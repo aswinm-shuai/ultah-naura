@@ -1250,7 +1250,7 @@
         <div class="lay"></div>
         <div class="lay f"></div>
         <div class="fframe st" style="--r:-2">
-            <div class="pol"><img src="asset/foto 13.jpeg" style="aspect-ratio:4/5">
+            <div class="pol"><img src="asset/foto 15.jpeg" style="aspect-ratio:4/5">
                 <div class="cap hand" style="font-size:22px">Still one of my favorite photos of us.</div>
             </div>
             <div class="tape" style="left:38%;top:-10px;transform:rotate(-4deg)"></div>
@@ -1368,8 +1368,8 @@
         ourSong.load();
         playDefault();
         /* memories scrapbook (isi tanggal di d:'' jika mau) */
-        const memPhotos = [{ s: 'asset/foto 11.jpeg', c: 'Canda bareng', d: '', w: 192, r: -4, y: 40 }, { s: 'asset/foto 7.jpeg', c: 'Tawa bareng', d: '', w: 235, r: 5, y: 100 }, { s: 'asset/foto 12.jpeg', c: 'Seru bareng', d: '', w: 181, r: -7, y: 50 },
-        { s: 'asset/foto 10.jpeg', c: 'Senang bareng', d: '', w: 224, r: 4, y: 120 }, { s: 'asset/foto 8.jpeg', c: 'Bahagia bareng', d: '', w: 192, r: -3, y: 60 }, { s: 'asset/foto 9.jpeg', c: 'Kenangan bareng', d: '', w: 235, r: 6, y: 110 }];
+        const memPhotos = [{ s: 'asset/foto 11.jpeg', c: 'Satu hari', d: '', w: 192, r: -4, y: 40 }, { s: 'asset/foto 7.jpeg', c: 'Satu cerita', d: '', w: 235, r: 5, y: 100 }, { s: 'asset/foto 12.jpeg', c: 'Satu Senyum', d: '', w: 181, r: -7, y: 50 },
+        { s: 'asset/foto 10.jpeg', c: 'Satu Tawa', d: '', w: 224, r: 4, y: 120 }, { s: 'asset/foto 8.jpeg', c: 'Satu Momen', d: '', w: 192, r: -3, y: 60 }, { s: 'asset/foto 14.jpeg', c: 'Untuk Diingat', d: '', w: 235, r: 6, y: 110 }];
         memPhotos.forEach((m, i) => {
             const it = document.createElement('div'); it.className = 'mi st'; it.style.cssText = `width:${m.w}px;margin-top:${m.y}px;--r:${m.r};--dl:${.2 + i * .15}s`;
             it.innerHTML = `<div class="pol"><img src="${m.s}"><div class="cap hand">${m.c}</div>${m.d ? `<div class="dt hand">${m.d}</div>` : ''}</div><div class="tape" style="top:-9px;left:${30 + i * 7}px;transform:rotate(${i % 2 ? 8 : -8}deg)"></div>` +
